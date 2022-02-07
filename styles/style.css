@@ -1,0 +1,64 @@
+html {
+  font-size: 20px; /* px значит 'пиксели': базовый шрифт будет 20 пикселей в высоту  */
+  background-color:#00539F;
+  font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  text-shadow: 3px 3px 5px black; /* Это делает тень на шрифт по горизонтали и вертикали  */
+  font-size: 60px;
+  text-align: center;
+  color: blue;
+}
+
+p, li {
+  font-size: 19px;
+  line-height: 1,5;
+  letter-spacing: 1px;
+}
+
+li {
+  color:rgb(245, 11, 11);
+}
+
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.title, .text p {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(5, 138, 49);
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ee900d;
+  padding: 0px 20px 20px 20px;
+  border: 5px solid #0b0c0b;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #1406db;
+}
+.card {
+  width: 150px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: cadetblue;
+  box-shadow: 0 7px 30px rgba(18, 25, 37, 0.945);
+  border-radius: 10px;
+}
+.card-photo {
+  display: block;
+  width: 150px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
